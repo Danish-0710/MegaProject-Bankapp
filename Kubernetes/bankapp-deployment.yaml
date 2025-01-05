@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bankapp
-        image: lowkeydanish/bankapp-eks
+        image: lowkeydanish/bankapp-eks:v1
         ports:
         - containerPort: 8080
         env:
